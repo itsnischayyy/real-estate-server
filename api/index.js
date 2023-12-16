@@ -27,7 +27,7 @@ app.use(cookieParser());
 
 // Use cors middleware to enable CORS
 app.use(cors({
-  origin: 'https://nick-real-estate.netlify.app', // Adjust the origin to your frontend URL
+  origin: 'https://real-estate-se.netlify.app', // Adjust the origin to your frontend URL
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
 }));
